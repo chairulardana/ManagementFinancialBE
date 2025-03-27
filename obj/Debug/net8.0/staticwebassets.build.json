@@ -1,0 +1,1052 @@
+{
+  "Version": 1,
+  "Hash": "lh760s013ULK2+dQpw7U/TkF3uraEXlaaRbh+1+KVL8=",
+  "Source": "AuthAPI",
+  "BasePath": "_content/AuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AuthAPI\\wwwroot",
+      "Source": "AuthAPI",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\10_Bigboss.jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/10_Bigboss#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e7u3m4g2i9",
+      "Integrity": "Vl67Fo6nDC2rKXzBVQPKqmv60qCKnPt1ZjRi2cov6n4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\10_Bigboss.jpg"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_chairullll2.png",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/3_chairullll2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x1tqw70njt",
+      "Integrity": "lXFQul6nZXhkaHIcwdwcRJcnqN8UmSDd6ma32gSzuDE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3_chairullll2.png"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_Screenshot 2025-02-04 233516.png",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/3_Screenshot 2025-02-04 233516#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "10azeyow92",
+      "Integrity": "n8zTn34DZPjOPQ036nll+StPr7i60IS/OMlXJShRutc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3_Screenshot 2025-02-04 233516.png"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ofmsr4vi1l",
+      "Integrity": "lFu7LzQTep4QTAlT9hwqs7eSUmGS9pZEix7ZJmxsVtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.jpg"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8lffwxsgod",
+      "Integrity": "VP8bPoIrre3d8NZBtsE3NXn+Ror3t794hqnhKvrneiU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.jpg"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\4_Screenshot 2025-03-13 092428.png",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/4_Screenshot 2025-03-13 092428#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5qjuhd46dt",
+      "Integrity": "o3vJwPN83hrWAsQYJ2pyicxCDIEwq5YIqVXqqH8H2cY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\4_Screenshot 2025-03-13 092428.png"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\5_farhan .jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/5_farhan #[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86bqzp4dvi",
+      "Integrity": "EEL6Im8v5e8t7tQIM2OCA328GDu1V+ShBdxw3r7FQyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5_farhan .jpg"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3nd27hpvaa",
+      "Integrity": "j0wOjuQrk5IJkAX981JmibcQDuz5676F1InmJJrY+Hc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.jpg"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzkt6u0wc6",
+      "Integrity": "fvL1iWkL2RS4aT18gaIJPwBKZsaAU00DwrgCgSVJo9I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.jpg"
+    },
+    {
+      "Identity": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\7_yudho.jpg",
+      "SourceId": "AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\",
+      "BasePath": "_content/AuthAPI",
+      "RelativePath": "uploads/7_yudho#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iw81zzjq6k",
+      "Integrity": "UgKNKK33AJZ0jWrg8EHt0RVN2yCRM5nGVkAAUdCgxy4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7_yudho.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/10_Bigboss.e7u3m4g2i9.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\10_Bigboss.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vl67Fo6nDC2rKXzBVQPKqmv60qCKnPt1ZjRi2cov6n4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:03:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e7u3m4g2i9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/10_Bigboss.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vl67Fo6nDC2rKXzBVQPKqmv60qCKnPt1ZjRi2cov6n4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/10_Bigboss.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\10_Bigboss.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vl67Fo6nDC2rKXzBVQPKqmv60qCKnPt1ZjRi2cov6n4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:03:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vl67Fo6nDC2rKXzBVQPKqmv60qCKnPt1ZjRi2cov6n4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_chairullll2.png",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_chairullll2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lXFQul6nZXhkaHIcwdwcRJcnqN8UmSDd6ma32gSzuDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 01:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lXFQul6nZXhkaHIcwdwcRJcnqN8UmSDd6ma32gSzuDE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_chairullll2.x1tqw70njt.png",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_chairullll2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lXFQul6nZXhkaHIcwdwcRJcnqN8UmSDd6ma32gSzuDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 01:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x1tqw70njt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3_chairullll2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lXFQul6nZXhkaHIcwdwcRJcnqN8UmSDd6ma32gSzuDE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_Screenshot 2025-02-04 233516.10azeyow92.png",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_Screenshot 2025-02-04 233516.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n8zTn34DZPjOPQ036nll+StPr7i60IS/OMlXJShRutc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 02:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "10azeyow92"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3_Screenshot 2025-02-04 233516.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n8zTn34DZPjOPQ036nll+StPr7i60IS/OMlXJShRutc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_Screenshot 2025-02-04 233516.png",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_Screenshot 2025-02-04 233516.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n8zTn34DZPjOPQ036nll+StPr7i60IS/OMlXJShRutc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 02:33:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n8zTn34DZPjOPQ036nll+StPr7i60IS/OMlXJShRutc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lFu7LzQTep4QTAlT9hwqs7eSUmGS9pZEix7ZJmxsVtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 02:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lFu7LzQTep4QTAlT9hwqs7eSUmGS9pZEix7ZJmxsVtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.ofmsr4vi1l.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lFu7LzQTep4QTAlT9hwqs7eSUmGS9pZEix7ZJmxsVtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 02:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ofmsr4vi1l"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3_WhatsApp Image 2025-02-16 at 01.27.45_3f2b97c1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lFu7LzQTep4QTAlT9hwqs7eSUmGS9pZEix7ZJmxsVtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.8lffwxsgod.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VP8bPoIrre3d8NZBtsE3NXn+Ror3t794hqnhKvrneiU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 02:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8lffwxsgod"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VP8bPoIrre3d8NZBtsE3NXn+Ror3t794hqnhKvrneiU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\3_WhatsApp Image 2025-03-18 at 09.33.37_15bac776.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VP8bPoIrre3d8NZBtsE3NXn+Ror3t794hqnhKvrneiU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 02:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VP8bPoIrre3d8NZBtsE3NXn+Ror3t794hqnhKvrneiU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4_Screenshot 2025-03-13 092428.5qjuhd46dt.png",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\4_Screenshot 2025-03-13 092428.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o3vJwPN83hrWAsQYJ2pyicxCDIEwq5YIqVXqqH8H2cY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 02:30:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5qjuhd46dt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4_Screenshot 2025-03-13 092428.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3vJwPN83hrWAsQYJ2pyicxCDIEwq5YIqVXqqH8H2cY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4_Screenshot 2025-03-13 092428.png",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\4_Screenshot 2025-03-13 092428.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o3vJwPN83hrWAsQYJ2pyicxCDIEwq5YIqVXqqH8H2cY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 02:30:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3vJwPN83hrWAsQYJ2pyicxCDIEwq5YIqVXqqH8H2cY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5_farhan .86bqzp4dvi.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\5_farhan .jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EEL6Im8v5e8t7tQIM2OCA328GDu1V+ShBdxw3r7FQyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 02:21:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86bqzp4dvi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5_farhan .jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EEL6Im8v5e8t7tQIM2OCA328GDu1V+ShBdxw3r7FQyM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5_farhan .jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\5_farhan .jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EEL6Im8v5e8t7tQIM2OCA328GDu1V+ShBdxw3r7FQyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 02:21:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EEL6Im8v5e8t7tQIM2OCA328GDu1V+ShBdxw3r7FQyM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.3nd27hpvaa.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0wOjuQrk5IJkAX981JmibcQDuz5676F1InmJJrY+Hc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 01:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3nd27hpvaa"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0wOjuQrk5IJkAX981JmibcQDuz5676F1InmJJrY+Hc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\5b52762b-ec05-465d-8230-75b5060fb32a_istockphoto-1223737192-612x612.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0wOjuQrk5IJkAX981JmibcQDuz5676F1InmJJrY+Hc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 01:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0wOjuQrk5IJkAX981JmibcQDuz5676F1InmJJrY+Hc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fvL1iWkL2RS4aT18gaIJPwBKZsaAU00DwrgCgSVJo9I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 02:16:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fvL1iWkL2RS4aT18gaIJPwBKZsaAU00DwrgCgSVJo9I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.mzkt6u0wc6.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fvL1iWkL2RS4aT18gaIJPwBKZsaAU00DwrgCgSVJo9I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 02:16:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzkt6u0wc6"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7_WhatsApp Image 2025-03-20 at 09.11.11_ad30164c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fvL1iWkL2RS4aT18gaIJPwBKZsaAU00DwrgCgSVJo9I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7_yudho.iw81zzjq6k.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\7_yudho.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UgKNKK33AJZ0jWrg8EHt0RVN2yCRM5nGVkAAUdCgxy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 02:18:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw81zzjq6k"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7_yudho.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgKNKK33AJZ0jWrg8EHt0RVN2yCRM5nGVkAAUdCgxy4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7_yudho.jpg",
+      "AssetFile": "D:\\FULL LATIHAN\\.NET\\.net course\\loginn\\loginn\\wwwroot\\uploads\\7_yudho.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UgKNKK33AJZ0jWrg8EHt0RVN2yCRM5nGVkAAUdCgxy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 02:18:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgKNKK33AJZ0jWrg8EHt0RVN2yCRM5nGVkAAUdCgxy4="
+        }
+      ]
+    }
+  ]
+}
