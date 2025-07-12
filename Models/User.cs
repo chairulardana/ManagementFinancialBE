@@ -5,12 +5,20 @@ namespace AuthAPI.Models
     public class User
     {
         [Key]
-        public int Id_User { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string Password_Hash { get; set; } = string.Empty;
-        public string? Role { get; set; }
-        public string? image { get; set; }
-    }
+        public int IdUser { get; set; }
 
+        [Required]
+        public string NamaLengkap { get; set; } = string.Empty;
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        public string? Password { get; set; } 
+
+    
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+    }
 }

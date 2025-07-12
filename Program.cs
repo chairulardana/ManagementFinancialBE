@@ -1,88 +1,78 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 using AuthAPI.Data;
 using AuthAPI.Services;
+using System.Threading.RateLimiting;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Menambahkan logging
+// Logging
 builder.Services.AddLogging();
 
-// Menambahkan konfigurasi koneksi ke database
+// Database
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
 builder.Services.AddDbContext<AuthDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-// Menambahkan pengaturan JWT
+
+// JWT
 var jwtKey = builder.Configuration["Jwt:Key"];
 if (string.IsNullOrEmpty(jwtKey))
 {
     throw new InvalidOperationException("JWT Key is missing in configuration.");
 }
-
 var key = Encoding.UTF8.GetBytes(jwtKey);
 
-// Menambahkan autentikasi JWT
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
     .AddJwtBearer(options =>
     {
-        options.RequireHttpsMetadata = false;  // Nonaktifkan untuk pengembangan lokal
+        options.RequireHttpsMetadata = false;
         options.SaveToken = true;
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(key),
-            ValidateIssuer = false,   // Menonaktifkan validasi issuer
-            ValidateAudience = false, // Menonaktifkan validasi audience
-            ValidateLifetime = true   // Mengaktifkan validasi lifetime token
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero,
+
+            // 🟢 KUNCI: mapping klaim
+            NameClaimType = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+            RoleClaimType = "http://schemas.microsoft.com/ws/2008/06/identity/claims/role"
         };
-    })
-    .AddCookie("Cookies", options => 
-    {
-        options.LoginPath = "/api/auth/login";  // Rute untuk login
-        options.LogoutPath = "/api/auth/logout";  // Rute untuk logout
-        options.Cookie.HttpOnly = true;  // Cookie hanya bisa diakses oleh HTTP
-        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;  // Hanya dikirim melalui HTTPS
-        options.Cookie.SameSite = SameSiteMode.Strict;  // Menghindari CSRF
-        options.ExpireTimeSpan = TimeSpan.FromDays(1);  // Durasi cookie
     });
 
 builder.Services.AddAuthorization();
 
-// Menambahkan CORS untuk mengizinkan semua asal (Origin)
+// CORS (Allow localhost FE)
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        policy =>
-        {
-            policy.AllowAnyOrigin()
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
-});
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.Cookie.HttpOnly = true;
-    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-    options.Cookie.SameSite = SameSiteMode.None; // Jika frontend berjalan di domain yang berbeda
-    options.ExpireTimeSpan = TimeSpan.FromDays(1);
-    options.LoginPath = "/"; // Pastikan ini sesuai dengan route login kamu
+    options.AddPolicy("AllowAllWithCredentials", policy =>
+    {
+        policy
+              .WithOrigins("http://localhost") // Adjust this URL as necessary
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
 });
 
-
-// Menambahkan Swagger untuk dokumentasi API
+// Swagger
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "KenZonuTss API",
-        Version = "v1",
-        Description = "Login API with JWT Authentication"
-    });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Management Financial API", Version = "v1" });
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -98,39 +88,86 @@ builder.Services.AddSwaggerGen(c =>
         {
             new OpenApiSecurityScheme
             {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
             },
-            new string[] {}
+            new string[] { }
         }
     });
 });
 
-// Menambahkan layanan untuk UserService
+// Services
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<SmartAssistantServiceGenZAngry>();
+builder.Services.AddScoped<TokenService>();
 
-// Menambahkan layanan untuk Controller API
+// Redis
+var redisConnectionString = builder.Configuration["RedisConnection"] ?? "redis:6379,abortConnect=false";
+if (string.IsNullOrEmpty(redisConnectionString))
+{
+    throw new InvalidOperationException("Redis connection string missing in configuration.");
+}
+builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(redisConnectionString));
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = redisConnectionString;
+    options.InstanceName = "MyAppRedis:";
+});
+
+// Rate Limiter
+builder.Services.AddRateLimiter(options =>
+{
+    // Fixed rate limiter policy
+    options.AddPolicy("fixed", context =>
+        RateLimitPartition.GetFixedWindowLimiter(
+            partitionKey: context.Connection.RemoteIpAddress?.ToString() ?? "unknown",
+            factory: key => new FixedWindowRateLimiterOptions
+            {
+                PermitLimit = 100,
+                Window = TimeSpan.FromMinutes(1),
+                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+                QueueLimit = 2
+            }));
+});
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-
+builder.Services.AddSingleton<EmailService>();
 
 var app = builder.Build();
 
-// Menambahkan Swagger UI
+// Middleware pipeline
+
+// Swagger UI
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// Menambahkan konfigurasi CORS
-app.UseCors("AllowAll");
+// CORS
+app.UseCors("AllowAllWithCredentials");
 
-// Menambahkan autentikasi dan otorisasi
+// Content-Security-Policy (CSP)
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Append("Content-Security-Policy",
+        "default-src 'self'; script-src 'self' https://saweria.co; style-src 'self'; img-src 'self' data:; font-src 'self'; frame-src 'self' https://saweria.co;");
+    await next();
+});
+
+// Akses file statis dari wwwroot/uploads
+app.UseStaticFiles(); // Melayani file statis di wwwroot
+
+// Jika ingin melayani file dari subfolder 'uploads' di wwwroot
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads")),
+    RequestPath = "/uploads"
+});
+
+// Rate Limiter Middleware
+app.UseRateLimiter();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Menambahkan routing untuk controller
-app.MapControllers();
+app.MapControllers().RequireRateLimiting("fixed");
 
 app.Run();

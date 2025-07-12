@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\03b92557-a0a1-4a81-be78-8a17e3e1baf4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\03b92557-a0a1-4a81-be78-8a17e3e1baf4.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\13fd0337-3c06-4dc8-b07b-ae1d62bc3f56.png",
+      "PackagePath": "staticwebassets\\uploads\\13fd0337-3c06-4dc8-b07b-ae1d62bc3f56.png"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\17bc2650-f264-4a46-b02b-bccc857abf89.jpg",
+      "PackagePath": "staticwebassets\\uploads\\17bc2650-f264-4a46-b02b-bccc857abf89.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\23235fa5-078f-4fe4-a0bf-aec08a393c7a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\23235fa5-078f-4fe4-a0bf-aec08a393c7a.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\303b0647-35cb-41fc-86a9-11aee07bca65.jpg",
+      "PackagePath": "staticwebassets\\uploads\\303b0647-35cb-41fc-86a9-11aee07bca65.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\313b3a7e-1594-41ee-a85d-3da0fd60fe21.jpg",
+      "PackagePath": "staticwebassets\\uploads\\313b3a7e-1594-41ee-a85d-3da0fd60fe21.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\38d1a7eb-c18b-4d2c-a023-db64622716d8.webp",
+      "PackagePath": "staticwebassets\\uploads\\38d1a7eb-c18b-4d2c-a023-db64622716d8.webp"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\39c91e8e-4b1f-4a16-ae7d-5488e4d54d21.avif",
+      "PackagePath": "staticwebassets\\uploads\\39c91e8e-4b1f-4a16-ae7d-5488e4d54d21.avif"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\88376b46-df6c-4c57-a691-3b806d421967.jpg",
+      "PackagePath": "staticwebassets\\uploads\\88376b46-df6c-4c57-a691-3b806d421967.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\9b31ec8a-df81-4924-b6e7-3528b9df1f2c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9b31ec8a-df81-4924-b6e7-3528b9df1f2c.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\ad1af79e-33de-47a0-93fa-2dfd082dfb61.png",
+      "PackagePath": "staticwebassets\\uploads\\ad1af79e-33de-47a0-93fa-2dfd082dfb61.png"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\b05bc508-280b-4063-8104-2fc6da215974.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b05bc508-280b-4063-8104-2fc6da215974.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\c5a81021-fcae-46fd-8289-f9ce0d2e5f23.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c5a81021-fcae-46fd-8289-f9ce0d2e5f23.jpg"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\c668de7f-af2c-4c64-b640-da7b273d1c24.png",
+      "PackagePath": "staticwebassets\\uploads\\c668de7f-af2c-4c64-b640-da7b273d1c24.png"
+    },
+    {
+      "Id": "A:\\MenagementFinance\\MenageUang\\wwwroot\\uploads\\e901efd2-c5f2-4e33-836b-025d170f4fe5.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\e901efd2-c5f2-4e33-836b-025d170f4fe5.jpeg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.AuthAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.AuthAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.AuthAPI.props",
+      "PackagePath": "build\\AuthAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AuthAPI.props",
+      "PackagePath": "buildMultiTargeting\\AuthAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.AuthAPI.props",
+      "PackagePath": "buildTransitive\\AuthAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
