@@ -62,7 +62,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAllWithCredentials", policy =>
     {
         policy
-              .WithOrigins("http://103.197.188.244") // Adjust this URL as necessary
+              .WithOrigins("http://103.197.188.244","http://kantongpintar.my.id","https://kantongpintar.my.id") // Adjust this URL as necessary
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();

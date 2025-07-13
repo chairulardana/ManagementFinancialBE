@@ -382,3 +382,15 @@ A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\out\appsettings.json
 A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\out\AuthAPI.deps.json
 A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\out\AuthAPI.runtimeconfig.json
 A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\out\AuthAPI.staticwebassets.endpoints.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\out\web.config
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\web.config
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\appsettings.Development.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\appsettings.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\AuthAPI.deps.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\AuthAPI.runtimeconfig.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\AuthAPI.staticwebassets.endpoints.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\out\appsettings.Development.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\out\appsettings.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\out\AuthAPI.deps.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\out\AuthAPI.runtimeconfig.json
+A:\MenagementFinance\MenageUang\bin\Release\net8.0\app\app\out\AuthAPI.staticwebassets.endpoints.json
